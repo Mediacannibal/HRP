@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<!-- saved from url=(0070)file:///D:/HRP/Receipt/Receipt/Sample%20House%20Resident%20Portal.html -->
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <meta name="csrf-token" content="bGe7X8BwJH8JTchDqkdpQlnfUUzv4KwxeMcoycZY">
+
+
+    <title>Sample House Resident Portal</title>
+    <script type="text/javascript" async="" src="./Receipt_files/recaptcha__en.js.download" crossorigin="anonymous"
+        integrity="sha384-5dRM1m7eE6AZoDz0NjK5VHNVPCC+oM2lfoqs/UmLHmgRBeoZvH2dwAP837BPJXaQ"></script>
+    <script type="text/javascript" async="" src="./Receipt_files/recaptcha__en.js(1).download" crossorigin="anonymous"
+        integrity="sha384-5dRM1m7eE6AZoDz0NjK5VHNVPCC+oM2lfoqs/UmLHmgRBeoZvH2dwAP837BPJXaQ"></script>
+    <script type="text/javascript" async="" src="./Receipt_files/recaptcha__en.js(2).download" crossorigin="anonymous"
+        integrity="sha384-5dRM1m7eE6AZoDz0NjK5VHNVPCC+oM2lfoqs/UmLHmgRBeoZvH2dwAP837BPJXaQ"></script>
+    <script type="text/javascript" async="" src="./Receipt_files/recaptcha__en.js(3).download" crossorigin="anonymous"
+        integrity="sha384-5dRM1m7eE6AZoDz0NjK5VHNVPCC+oM2lfoqs/UmLHmgRBeoZvH2dwAP837BPJXaQ"></script>
+    <script type="text/javascript" async="" src="./Receipt_files/recaptcha__en.js(4).download" crossorigin="anonymous"
+        integrity="sha384-5dRM1m7eE6AZoDz0NjK5VHNVPCC+oM2lfoqs/UmLHmgRBeoZvH2dwAP837BPJXaQ"></script>
+    <script src="./Receipt_files/app.js.download" defer=""></script>
+
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com/">
+
+    <link href="./Receipt_files/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./Receipt_files/style(1).css">
+    <link rel="stylesheet" href="./Receipt_files/fontawesome-all.css">
+    <link rel="stylesheet" href="./Receipt_files/themify-icons.css">
+
+    <link href="./Receipt_files/app.css" rel="stylesheet">
+
+    <script src="./Receipt_files/api.js.download"></script>
+    <script>
+        var csrfToken = document.head.querySelector('meta[name="csrf-token"]');
+        grecaptcha.ready(function () {
+            grecaptcha.execute('6LfWSSAbAAAAAPLO4TdrCgmlI1ojYJXfyCPHIur_', { action: 'homepage' }).then(function (token) {
+
+                fetch('/biscolab-recaptcha/validate?token=' + token, {
+                    headers: {
+                        "X-Requested-With": "XMLHttpRequest",
+                        "X-CSRF-TOKEN": csrfToken.content
+                    }
+                })
+                    .then(function (response) {
+                        callbackThen(response)
+                    })
+                    .catch(function (err) {
+                        callbackCatch(err)
+                    });
+            });
+        });
+    </script>
+
+    <style type="text/css">
+        .action-link[data-v-1552a5b6] {
+            cursor: pointer;
+        }
+    </style>
+    <style type="text/css">
+        .action-link[data-v-397d14ca] {
+            cursor: pointer;
+        }
+    </style>
+    <style type="text/css">
+        .action-link[data-v-49962cc0] {
+            cursor: pointer;
+        }
+    </style>
+    <style type="text/css">
+        .action-link[data-v-1552a5b6] {
+            cursor: pointer;
+        }
+    </style>
+    <style type="text/css">
+        .action-link[data-v-397d14ca] {
+            cursor: pointer;
+        }
+    </style>
+    <style type="text/css">
+        .action-link[data-v-49962cc0] {
+            cursor: pointer;
+        }
+    </style>
+    <style type="text/css">
+        .action-link[data-v-1552a5b6] {
+            cursor: pointer;
+        }
+    </style>
+    <style type="text/css">
+        .action-link[data-v-397d14ca] {
+            cursor: pointer;
+        }
+    </style>
+    <style type="text/css">
+        .action-link[data-v-49962cc0] {
+            cursor: pointer;
+        }
+    </style>
+    <style type="text/css">
+        .action-link[data-v-1552a5b6] {
+            cursor: pointer;
+        }
+    </style>
+    <style type="text/css">
+        .action-link[data-v-397d14ca] {
+            cursor: pointer;
+        }
+    </style>
+    <style type="text/css">
+        .action-link[data-v-49962cc0] {
+            cursor: pointer;
+        }
+    </style>
+    <style type="text/css">
+        .action-link[data-v-1552a5b6] {
+            cursor: pointer;
+        }
+    </style>
+    <style type="text/css">
+        .action-link[data-v-397d14ca] {
+            cursor: pointer;
+        }
+    </style>
+    <style type="text/css">
+        .action-link[data-v-49962cc0] {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="dashboard-main-wrapper">
+        <div class="dashboard-header">
+
+            <nav class="navbar navbar-expand-lg bg-primary fixed-top">
+
+                <div class="navbar-brand text-white">Sample House Resident Portal </div>
+
+
+
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <!-- <i class="ti-arrow-circle-down"></i> -->
+                        <!-- new code -->
+                        <img class="userIcon_img" src="../assets/user_icon.svg">
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto navbar-right-top">
+                        <img class="userIcon_img" src="../assets/user_icon.svg">
+                        <li class="nav-item dropdown nav-user">
+                            <a class="nav-link nav-user-img" href="https://uatpba01.unityapps.net/property/receipt#"
+                                id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                <!-- <span style="color: white;"><i class="fas fa-user fa-lg"></i><i class="fas fa-arrow-alt-circle-down"></i></span> -->
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right nav-user-dropdown"
+                                aria-labelledby="navbarDropdownMenuLink2">
+                                <div class="nav-user-info">
+                                    <h5 class="mb-0 text-white nav-user-name"><span class="ml-2">b0101@gmail.com</span>
+                                    </h5>
+                                    <span class="status"></span><span class="ml-2">OWNER</span>
+
+
+                                </div>
+                                <a class="dropdown-item" href="https://uatpba01.unityapps.net/changepassword">
+                                    <i class="fas fa-key mr-2"></i>Change Password
+                                </a>
+
+                                <a class="dropdown-item" href="https://uatpba01.unityapps.net/logout" onclick="event.preventDefault();
+                                                        document.getElementById(&#39;logout-form&#39;).submit();">
+                                    <i class="fas fa-power-off mr-2"></i>Logout
+                                </a>
+
+                                <form id="logout-form" action="https://uatpba01.unityapps.net/logout" method="POST"
+                                    style="display: none;">
+                                    <input type="hidden" name="_token" value="bGe7X8BwJH8JTchDqkdpQlnfUUzv4KwxeMcoycZY">
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+
+        <div class="nav-left-sidebar sidebar-dark">
+
+            <div class="menu-list">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="d-xl-none d-lg-none"
+                        href="https://uatpba01.unityapps.net/property/dashboard">Dashboard</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav flex-column">
+                            <div class="form-group mb-0">
+                                <select class="form-control" name="cbProperty" onchange="refreshProperty(this)">
+                                    <option value="d4045b81-9056-11eb-8960-705681b083ce" selected="">B-01-01</option>
+                                    <option value="d4046600-9056-11eb-8960-705681b083ce">B-01-02</option>
+                                </select>
+
+                            </div>
+                            <li class="nav-item">
+                                <a class="nav-link " href="https://uatpba01.unityapps.net/property/dashboard"><i
+                                        class="fas fa-home"></i>Dashboard<span class="badge badge-success">6</span></a>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link " href="https://uatpba01.unityapps.net/property/receipt#"
+                                    data-toggle="collapse" aria-expanded="false" data-target="#propertypayment"
+                                    aria-controls="propertypayment"><i class="ti-view-list-alt"></i>Payment</a>
+                                <div id="propertypayment" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link "
+                                                href="https://uatpba01.unityapps.net/property/outstanding"><i
+                                                    class="fas fa-clipboard-check"></i>Outstanding Bill<span
+                                                    class="badge badge-success">6</span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link "
+                                                href="https://uatpba01.unityapps.net/property/payment"><i
+                                                    class="fas fa-credit-card"></i>Pending Payment<span
+                                                    class="badge badge-success">6</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="https://uatpba01.unityapps.net/property/receipt"><i
+                                        class="ti-receipt"></i>Receipt<span class="badge badge-success">6</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="https://uatpba01.unityapps.net/property/receipt#"
+                                    data-toggle="collapse" aria-expanded="false" data-target="#propertyfacility"
+                                    aria-controls="propertyfacility"><i class="fas fa-table-tennis"></i>Facilities</a>
+                                <div id="propertyfacility" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link "
+                                                href="https://uatpba01.unityapps.net/property/facilities"><i
+                                                    class="far fa-calendar-check"></i>Book Facility<span
+                                                    class="badge badge-success">6</span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link "
+                                                href="https://uatpba01.unityapps.net/property/booking/facilities"><i
+                                                    class="far fa-calendar-check"></i>Booked Facility<span
+                                                    class="badge badge-success">6</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link " href="https://uatpba01.unityapps.net/property/forms"><i
+                                        class="fab fa-fw fa-wpforms"></i>Forms<span
+                                        class="badge badge-success">6</span></a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://uatpba01.unityapps.net/logout"
+                                    onclick="event.preventDefault();
+                                                                document.getElementById(&#39;logout-form2&#39;).submit();">
+                                    <i class="fas fa-power-off mr-2"></i>Logout
+                                </a>
+
+                                <form id="logout-form2" action="https://uatpba01.unityapps.net/logout" method="POST"
+                                    style="display: none;">
+                                    <input type="hidden" name="_token" value="bGe7X8BwJH8JTchDqkdpQlnfUUzv4KwxeMcoycZY">
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+
+
+        <div class="dashboard-wrapper">
+            <main class="py-4">
+                <div class="container-fluid">
+
+
+                    <div class="row mb-2">
+                        <div class="col-xl-3">
+                            <!--             <h5>Receipt List</h5> -->
+                            <!--     new code -->
+                            <div class="uni_heading">Receipt List</div>
+                        </div>
+                    </div>
+                    <div class="card color-next">
+
+                        <div class="card-body">
+                            <table class="table table-sm table-striped table-bordered table-hover mg-0">
+                                <thead class="bg-info">
+                                    <tr>
+                                        <th scope="col">Running Number</th>
+                                        <th scope="col">Date</th>
+                                        <th scope="col">Amount (RM)</th>
+                                        <th scope="col"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>OR0000030</td>
+                                        <td>24/06/2021</td>
+                                        <td class="text-right">331.58</td>
+                                        <td class="text-right">
+                                            <a class="btn btn-sm bg-primary"
+                                                href="https://uatpba01.unityapps.net/property/receipt/93c001d6-59f1-4c20-a056-93d757049cb9"><span
+                                                    style="color: white;"><i class="fas fa-eye"></i></span></a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>OR0000029</td>
+                                        <td>14/06/2021</td>
+                                        <td class="text-right">228.85</td>
+                                        <td class="text-right">
+                                            <a class="btn btn-sm bg-primary"
+                                                href="https://uatpba01.unityapps.net/property/receipt/93ab4b21-6487-4026-8288-ebe1e6dd9121"><span
+                                                    style="color: white;"><i class="fas fa-eye"></i></span></a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>OR0000027</td>
+                                        <td>11/06/2021</td>
+                                        <td class="text-right">271.33</td>
+                                        <td class="text-right">
+                                            <a class="btn btn-sm bg-primary"
+                                                href="https://uatpba01.unityapps.net/property/receipt/93a54967-3fd8-45a5-9ead-70e4fdd57044"><span
+                                                    style="color: white;"><i class="fas fa-eye"></i></span></a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>OR0000025</td>
+                                        <td>27/04/2021</td>
+                                        <td class="text-right">228.85</td>
+                                        <td class="text-right">
+                                            <a class="btn btn-sm bg-primary"
+                                                href="https://uatpba01.unityapps.net/property/receipt/934ad2ec-f899-48f0-8948-bb4d54957c19"><span
+                                                    style="color: white;"><i class="fas fa-eye"></i></span></a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>OR0000020</td>
+                                        <td>06/04/2021</td>
+                                        <td class="text-right">601.25</td>
+                                        <td class="text-right">
+                                            <a class="btn btn-sm bg-primary"
+                                                href="https://uatpba01.unityapps.net/property/receipt/9320c1cc-42b3-45b5-a058-870cd1184d69"><span
+                                                    style="color: white;"><i class="fas fa-eye"></i></span></a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>OR0000016</td>
+                                        <td>31/03/2021</td>
+                                        <td class="text-right">167.17</td>
+                                        <td class="text-right">
+                                            <a class="btn btn-sm bg-primary"
+                                                href="https://uatpba01.unityapps.net/property/receipt/9314e2fe-9d52-4738-8d39-63892e2569c9"><span
+                                                    style="color: white;"><i class="fas fa-eye"></i></span></a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>OR0000015</td>
+                                        <td>31/03/2021</td>
+                                        <td class="text-right">10.00</td>
+                                        <td class="text-right">
+                                            <a class="btn btn-sm bg-primary"
+                                                href="https://uatpba01.unityapps.net/property/receipt/c6214d55-91c4-11eb-9727-705681b083ce"><span
+                                                    style="color: white;"><i class="fas fa-eye"></i></span></a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>OR0000014</td>
+                                        <td>31/03/2021</td>
+                                        <td class="text-right">32.94</td>
+                                        <td class="text-right">
+                                            <a class="btn btn-sm bg-primary"
+                                                href="https://uatpba01.unityapps.net/property/receipt/93144db7-d3e3-445d-aad5-ade0b821173e"><span
+                                                    style="color: white;"><i class="fas fa-eye"></i></span></a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>OR0000013</td>
+                                        <td>30/03/2021</td>
+                                        <td class="text-right">40.15</td>
+                                        <td class="text-right">
+                                            <a class="btn btn-sm bg-primary"
+                                                href="https://uatpba01.unityapps.net/property/receipt/9312e50f-faf2-4d01-b45a-faed36b16a87"><span
+                                                    style="color: white;"><i class="fas fa-eye"></i></span></a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>OR0000012</td>
+                                        <td>30/03/2021</td>
+                                        <td class="text-right">20.00</td>
+                                        <td class="text-right">
+                                            <a class="btn btn-sm bg-primary"
+                                                href="https://uatpba01.unityapps.net/property/receipt/9312e386-7a76-45a5-98da-c73e948a5356"><span
+                                                    style="color: white;"><i class="fas fa-eye"></i></span></a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>OR0000011</td>
+                                        <td>30/03/2021</td>
+                                        <td class="text-right">29.45</td>
+                                        <td class="text-right">
+                                            <a class="btn btn-sm bg-primary"
+                                                href="https://uatpba01.unityapps.net/property/receipt/9312e386-7a76-45a5-98da-c73e948a5354"><span
+                                                    style="color: white;"><i class="fas fa-eye"></i></span></a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>OR0000010</td>
+                                        <td>14/06/2018</td>
+                                        <td class="text-right">228.85</td>
+                                        <td class="text-right">
+                                            <a class="btn btn-sm bg-primary"
+                                                href="https://uatpba01.unityapps.net/property/receipt/d4723d70-9056-11eb-8960-705681b083ce"><span
+                                                    style="color: white;"><i class="fas fa-eye"></i></span></a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>OR0000009</td>
+                                        <td>14/06/2018</td>
+                                        <td class="text-right">4,576.70</td>
+                                        <td class="text-right">
+                                            <a class="btn btn-sm bg-primary"
+                                                href="https://uatpba01.unityapps.net/property/receipt/d4723a61-9056-11eb-8960-705681b083ce"><span
+                                                    style="color: white;"><i class="fas fa-eye"></i></span></a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>OR0000008</td>
+                                        <td>14/06/2018</td>
+                                        <td class="text-right">231.80</td>
+                                        <td class="text-right">
+                                            <a class="btn btn-sm bg-primary"
+                                                href="https://uatpba01.unityapps.net/property/receipt/d47237c0-9056-11eb-8960-705681b083ce"><span
+                                                    style="color: white;"><i class="fas fa-eye"></i></span></a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>OR0000007</td>
+                                        <td>15/05/2018</td>
+                                        <td class="text-right">100.00</td>
+                                        <td class="text-right">
+                                            <a class="btn btn-sm bg-primary"
+                                                href="https://uatpba01.unityapps.net/property/receipt/d472351d-9056-11eb-8960-705681b083ce"><span
+                                                    style="color: white;"><i class="fas fa-eye"></i></span></a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>OR0000005</td>
+                                        <td>06/05/2018</td>
+                                        <td class="text-right">72.50</td>
+                                        <td class="text-right">
+                                            <a class="btn btn-sm bg-primary"
+                                                href="https://uatpba01.unityapps.net/property/receipt/d4722c86-9056-11eb-8960-705681b083ce"><span
+                                                    style="color: white;"><i class="fas fa-eye"></i></span></a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>8/000001</td>
+                                        <td>06/05/2018</td>
+                                        <td class="text-right">288.35</td>
+                                        <td class="text-right">
+                                            <a class="btn btn-sm bg-primary"
+                                                href="https://uatpba01.unityapps.net/property/receipt/d4722919-9056-11eb-8960-705681b083ce"><span
+                                                    style="color: white;"><i class="fas fa-eye"></i></span></a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>OR0000003</td>
+                                        <td>13/09/2017</td>
+                                        <td class="text-right">2,000.00</td>
+                                        <td class="text-right">
+                                            <a class="btn btn-sm bg-primary"
+                                                href="https://uatpba01.unityapps.net/property/receipt/d4722436-9056-11eb-8960-705681b083ce"><span
+                                                    style="color: white;"><i class="fas fa-eye"></i></span></a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>OR0000001</td>
+                                        <td>12/09/2017</td>
+                                        <td class="text-right">228.85</td>
+                                        <td class="text-right">
+                                            <a class="btn btn-sm bg-primary"
+                                                href="https://uatpba01.unityapps.net/property/receipt/d4721d46-9056-11eb-8960-705681b083ce"><span
+                                                    style="color: white;"><i class="fas fa-eye"></i></span></a>
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+
+        </div>
+
+    </div>
+
+    <script src="./Receipt_files/jquery.min.js.download"></script>
+    <script src="./Receipt_files/propertyonchange.js.download" defer=""></script>
+
+    <div id="app"></div>
+
+
+
+
+    <div>
+        <div class="grecaptcha-badge" data-style="bottomright"
+            style="width: 256px; height: 60px; display: block; transition: right 0.3s ease 0s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;">
+            <div class="grecaptcha-logo"><iframe title="reCAPTCHA" src="./Receipt_files/anchor.html" width="256"
+                    height="60" role="presentation" name="a-z9fg8kilsw9s" frameborder="0" scrolling="no"
+                    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+            </div>
+            <div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response"
+                class="g-recaptcha-response"
+                style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+        </div><iframe style="display: none;" src="./Receipt_files/saved_resource(1).html"></iframe>
+    </div>
+    <div>
+        <div class="grecaptcha-badge" data-style="none"
+            style="width: 256px; height: 60px; position: fixed; visibility: hidden;">
+            <div class="grecaptcha-logo"><iframe title="reCAPTCHA" src="./Receipt_files/anchor(1).html" width="256"
+                    height="60" role="presentation" name="a-gdn1gqfkcgtk" frameborder="0" scrolling="no"
+                    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+            </div>
+            <div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response"
+                class="g-recaptcha-response"
+                style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+        </div><iframe style="display: none;" src="./Receipt_files/saved_resource.html"></iframe>
+    </div>
+    <div>
+        <div class="grecaptcha-badge" data-style="none"
+            style="width: 256px; height: 60px; position: fixed; visibility: hidden;">
+            <div class="grecaptcha-logo"><iframe title="reCAPTCHA" src="./Receipt_files/anchor(2).html" width="256"
+                    height="60" role="presentation" name="a-pzrj0jpmhiiq" frameborder="0" scrolling="no"
+                    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+            </div>
+            <div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response"
+                class="g-recaptcha-response"
+                style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+        </div><iframe style="display: none;" src="./Receipt_files/saved_resource(2).html"></iframe>
+    </div>
+    <div>
+        <div class="grecaptcha-badge" data-style="none"
+            style="width: 256px; height: 60px; position: fixed; visibility: hidden;">
+            <div class="grecaptcha-logo"><iframe title="reCAPTCHA" src="./Receipt_files/anchor(3).html" width="256"
+                    height="60" role="presentation" name="a-s0ds4m42irdj" frameborder="0" scrolling="no"
+                    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+            </div>
+            <div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response"
+                class="g-recaptcha-response"
+                style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+        </div><iframe style="display: none;" src="./Receipt_files/saved_resource(3).html"></iframe>
+    </div>
+    <div>
+        <div class="grecaptcha-badge" data-style="none"
+            style="width: 256px; height: 60px; position: fixed; visibility: hidden;">
+            <div class="grecaptcha-logo"><iframe title="reCAPTCHA" src="./Receipt_files/anchor(4).html" width="256"
+                    height="60" role="presentation" name="a-mee3uhyeqg7k" frameborder="0" scrolling="no"
+                    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+            </div>
+            <div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response"
+                class="g-recaptcha-response"
+                style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+        </div><iframe style="display: none;" src="./Receipt_files/saved_resource(4).html"></iframe>
+    </div>
+</body>
+
+</html>
