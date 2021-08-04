@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.userIcon_img {
+    height: 35px;
+}
+
+.menu_icons {
+    height: 3vh;
+    margin-right: 1vh;
+}
+
+.uni_heading {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.uni_heading>.text-after-btn {
+    padding-left: 20px;
+}
+
+.container-fluid>.row.head_wrap {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.btn-back {
+    display: flex;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 200px;
+    height: 35px;
+    width: 35px;
+}
+
+.btn-danger {
+    display: flex;
+    background-color: #e3342f;
+    border-color: #e3342f;
+    border-radius: 200px;
+    height: 35px;
+    width: 35px;
+}
+
+.icon-wrapper {
+    display: inherit;
+    height: 100%;
+    width: 100%;
+    align-self: center;
+    justify-content: center;
+    padding: 8px;
+}
+
+.row_icon {
+    object-fit: contain;
+}
