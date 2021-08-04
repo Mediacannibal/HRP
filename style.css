@@ -31,6 +31,9 @@
     border-radius: 200px;
     height: 35px;
     width: 35px;
+    -webkit-box-shadow: 0px 1px 2px 1px rgb(154 154 204 / 22%);
+    -moz-box-shadow: 0px 1px 2px 1px rgba(154, 154, 204, 0.22);
+    box-shadow: 0px 1px 2px 1px rgb(154 154 204 / 22%);
 }
 
 .btn-danger {
@@ -40,6 +43,9 @@
     border-radius: 200px;
     height: 35px;
     width: 35px;
+    -webkit-box-shadow: 0px 1px 2px 1px rgb(154 154 204 / 22%);
+    -moz-box-shadow: 0px 1px 2px 1px rgba(154, 154, 204, 0.22);
+    box-shadow: 0px 1px 2px 1px rgb(154 154 204 / 22%);
 }
 
 .icon-wrapper {
@@ -53,6 +59,11 @@
 
 .row_icon {
     object-fit: contain;
+}
+
+.head_wrap {
+    justify-content: space-between;
+    padding: 20px 0 10px;
 }
 
 .color-skyBlue {
@@ -115,11 +126,6 @@
 .x_img {
     height: 2.5vh;
     padding-left: 2vh;
-}
-
-.head_wrap {
-    justify-content: space-between;
-    margin-bottom: 1vh;
 }
 
 .pay_buttonSubmit {
