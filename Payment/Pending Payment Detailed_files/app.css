@@ -123,11 +123,6 @@ address {
     padding-left: 2vh;
 }
 
-.head_wrap {
-    justify-content: space-between;
-    margin-bottom: 1vh;
-}
-
 .pay_buttonSubmit {
     display: flex;
     background: #a06af6;
