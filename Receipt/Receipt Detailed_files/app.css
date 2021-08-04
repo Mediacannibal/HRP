@@ -128,52 +128,6 @@ address {
     background-color: #f5feff !important;
 }
 
-.receipt_total_rm {
-    display: flex;
-}
-
-.download_print {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-    margin-left: 2vh;
-}
-
-.download_button {
-    background: #a06af6;
-    width: 10vw;
-    height: 6vh;
-    border-radius: 3vh;
-    margin-bottom: 2vh;
-    margin-left: 2vh;
-}
-
-.print_button {
-    background: #a06af6;
-    width: 7vw;
-    height: 6vh;
-    border-radius: 3vh;
-    margin-bottom: 2vh;
-    margin-left: 2vh;
-}
-
-.download_print_text {
-    color: #ffffff
-}
-
-.color-next {
-    background-color: #d4ebf6;
-}
-
-.header_receipt {
-    display: flex;
-    margin: 2vh;
-}
-
-.back_img {
-    height: 3vh;
-    margin-right: 1vh;
-}
 
 .uni_heading {
     color: #0886ab;

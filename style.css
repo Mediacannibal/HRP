@@ -54,3 +54,158 @@
 .row_icon {
     object-fit: contain;
 }
+
+.color-skyBlue {
+    height: 80vh !important;
+    background: rgb(49, 186, 235);
+    background: linear-gradient(180deg, rgba(49, 186, 235, 1) 10%, rgba(180, 231, 240, 1) 100%);
+}
+
+.group_img {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-top: 16vh;
+    object-fit: contain;
+}
+
+.outbill_img {
+    display: flex;
+    object-fit: contain;
+    position: absolute;
+    height: 35vh;
+    right: 0;
+    bottom: 0;
+}
+
+.pending_img {
+    display: flex;
+    object-fit: contain;
+    position: absolute;
+    height: 20vh;
+    right: 0;
+    margin-right: 6vh;
+    margin-top: 10vh;
+}
+
+.checkout_text {
+    font-size: 13px;
+    color: #ffffff;
+    margin-top: 4px;
+}
+
+.white_tick {
+    height: 2vh;
+    padding-left: 1vh;
+    margin-top: 7px;
+}
+
+.checkout_button {
+    display: flex;
+    color: #fff;
+    background-color: #b145e9;
+    border-color: #2176bd;
+    border-radius: 3vh;
+}
+
+.color-next {
+    background-color: #f5feff !important;
+}
+
+.x_img {
+    height: 2.5vh;
+    padding-left: 2vh;
+}
+
+.head_wrap {
+    justify-content: space-between;
+    margin-bottom: 1vh;
+}
+
+.pay_buttonSubmit {
+    display: flex;
+    background: #a06af6;
+    width: 7vw;
+    height: 6vh;
+    border-radius: 3vh;
+    margin-bottom: 2vh;
+    margin-left: 2vh;
+}
+
+.payment_pay_buttons {
+    display: flex;
+}
+
+.upload_slip_btn {
+    background: #ffffff;
+    border-color: #a06af6;
+    width: 18vw;
+    height: 6vh;
+    border-radius: 3vh;
+    margin-bottom: 2vh;
+    margin-left: 2vh;
+}
+
+.total_rm {
+    display: flex;
+    background-color: #27dab1;
+    justify-content: space-evenly;
+    width: 25vw;
+    padding-top: 1vh;
+}
+
+.pay_button_text {
+    color: #ffffff;
+    margin-left: 2vh;
+}
+
+.upload_slip_text {
+    color: #a06af6;
+}
+
+.submit_button_wrap {
+    display: flex;
+}
+
+.receipt_total_rm {
+    display: flex;
+}
+
+.download_print {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin-left: 2vh;
+}
+
+.download_button {
+    background: #a06af6;
+    width: 10vw;
+    height: 6vh;
+    border-radius: 3vh;
+    margin-bottom: 2vh;
+    margin-left: 2vh;
+}
+
+.print_button {
+    background: #a06af6;
+    width: 7vw;
+    height: 6vh;
+    border-radius: 3vh;
+    margin-bottom: 2vh;
+    margin-left: 2vh;
+}
+
+.download_print_text {
+    color: #ffffff
+}
+
+.header_receipt {
+    display: flex;
+    margin: 2vh;
+}
+
+.back_img {
+    height: 3vh;
+    margin-right: 1vh;
+}

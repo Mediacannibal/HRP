@@ -191,36 +191,6 @@ a:not([href]):not([class]):hover {
     text-decoration: none;
 }
 
-.checkout_text {
-    font-size: 13px;
-    color: #ffffff;
-    margin-top: 4px;
-}
-
-.white_tick {
-    height: 2vh;
-    padding-left: 1vh;
-    margin-top: 7px;
-}
-
-.checkout_button {
-    display: flex;
-    color: #fff;
-    background-color: #b145e9;
-    border-color: #2176bd;
-    border-radius: 3vh;
-}
-
-.uni_heading {
-    color: #0886ab;
-    font-size: 15px;
-    font-weight: 600;
-}
-
-.color-next {
-    background-color: #f5feff !important;
-}
-
 pre,
 code,
 kbd,

@@ -236,39 +236,6 @@ caption {
     caption-side: bottom;
 }
 
-.color-skyBlue {
-    height: 80vh !important;
-    background: rgb(49, 186, 235);
-    background: linear-gradient(180deg, rgba(49, 186, 235, 1) 10%, rgba(180, 231, 240, 1) 100%);
-}
-
-.group_img {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    margin-top: 16vh;
-    object-fit: contain;
-}
-
-.outbill_img {
-    display: flex;
-    object-fit: contain;
-    position: absolute;
-    height: 35vh;
-    right: 0;
-    bottom: 0;
-}
-
-.pending_img {
-    display: flex;
-    object-fit: contain;
-    position: absolute;
-    height: 20vh;
-    right: 0;
-    margin-right: 6vh;
-    margin-top: 10vh;
-}
-
 th {
     text-align: inherit;
 }
