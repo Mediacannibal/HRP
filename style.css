@@ -13,6 +13,7 @@
     align-items: center;
     font-size: 18px;
     font-weight: 700;
+    color: #0a78c4;
 }
 
 .uni_heading>.text-after-btn {
@@ -214,4 +215,21 @@
 .back_img {
     height: 3vh;
     margin-right: 1vh;
+}
+
+.navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+    color: #0a78c4;
+}
+
+.nav-left-sidebar .submenu {
+    padding-left: 12px;
+    padding-right: 12px;
+    /* margin-top: 5px; */
+    background: #cdf0f7;
+}
+
+.sidebar-dark.nav-left-sidebar .submenu .nav .nav-item .nav-link:hover {
+    color: #0a78c4;
+    border-radius: 2px;
+    background-color: #a9d1d8;
 }
