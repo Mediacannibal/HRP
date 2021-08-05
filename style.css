@@ -233,3 +233,116 @@
     border-radius: 2px;
     background-color: #a9d1d8;
 }
+
+.card_title {
+    color: #0a78c4;
+    margin-top: 2vh;
+    margin-left: 3vh;
+    font-weight: 600;
+}
+
+.upload_icon {
+    height: 3vh;
+    padding-left: 1vh;
+    margin-top: 3px;
+}
+
+.submit-pay {
+    width: 8vw;
+    height: 5vh;
+    display: flex;
+    background: #a06af6;
+    border-radius: 3vh;
+    margin-top: 5vh;
+}
+
+/* popup CSS */
+
+.popup_wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    vertical-align: top;
+}
+
+.popup_bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000000a4;
+    z-index: 1000;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    vertical-align: top;
+    animation: fade-in 0.4s ease forwards;
+}
+
+.popup_container {
+    position: relative;
+    align-self: center;
+    display: grid;
+    z-index: 999999;
+    animation: pop-in 0.4s ease forwards;
+}
+
+.popup_file_upload {
+    display: flex;
+    background-color: #e3f0ff;
+    height: 5vh;
+    width: 55vh;
+    border-radius: 3vh;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+    box-shadow: -2px 4px 2px 0px rgb(72 124 159 / 37%);
+}
+
+.close-icon-wrapper {
+    position: absolute;
+    right: -40px;
+    height: 20px;
+    width: 20px;
+    object-fit: contain;
+    display: flex;
+}
+
+.upload_payslip {
+    background: #ffffff;
+    border-color: #a06af6;
+    width: 8vw;
+    height: 5vh;
+    border-radius: 3vh;
+}
+
+.file_choose_text {
+    font-size: 13px;
+    font-weight: 300;
+    margin: 1vh;
+}
+
+.upload_slip_btn {
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: #a06af6;
+    width: 18vw;
+    height: 6vh;
+    border-radius: 3vh;
+    margin-bottom: 2vh;
+    margin-left: 2vh;
+}

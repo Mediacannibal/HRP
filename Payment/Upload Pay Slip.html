@@ -293,87 +293,43 @@
             </div>
         </div>
 
-        <div class="dashboard-wrapper">
-            <main class="py-4">
-                <div class="container-fluid">
-                    <div class="row mb-2">
-                        <div class="col-xl-3">
-                            <div class="uni_heading">Payment Pending</div>
-                        </div>
-                    </div>
+        <div class="popup_wrapper">
+            <main class="popup_bg">
+                <div class="popup_container">
                     <div class="card color-next">
+                        <div class="card_title">
+                            Upload Payment Slip
+                        </div>
                         <div class="card-body">
-                            <table class="table table-sm table-striped table-bordered table-hover mg-0">
-                                <thead class="bg-info">
-                                    <tr>
-                                        <th scope="col">Ref No</th>
-                                        <th scope="col">Date</th>
-                                        <th scope="col">Amount (RM)</th>
-                                        <th scope="col"></th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>93d601cb-53ce-40c4-a141-5677c57fbc21</td>
-                                        <td>05/07/2021</td>
-                                        <td class="text-right">4,576.70</td>
-                                        <td class="text-right">
-                                            <a class="btn btn-sm" href="../Payment/Pending Payment Detailed.html"><span
-                                                    style="color: white;"><img class="row_icons"
-                                                        src="../assets/visibility_eye_icon.svg"></span></a>
-                                            <button class="btn btn-sm"
-                                                onclick="handleDelete(&#39;93d601cb-53ce-40c4-a141-5677c57fbc21&#39;)"><span
-                                                    style="color: white;"><img class="row_icons"
-                                                        src="../assets/delete_red_icon.svg"></span></button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>94053c6d-cb3d-4e68-b414-db16148a05c9</td>
-                                        <td>29/07/2021</td>
-                                        <td class="text-right">329.15</td>
-                                        <td class="text-right">
-                                            <a class="btn btn-sm" href="../Payment/Pending Payment Detailed.html"><span
-                                                    style="color: white;"><img class="row_icons"
-                                                        src="../assets/visibility_eye_icon.svg"></span></a>
-                                            <button class="btn btn-sm"
-                                                onclick="handleDelete(&#39;94053c6d-cb3d-4e68-b414-db16148a05c9&#39;)"><span
-                                                    style="color: white;"><img class="row_icons"
-                                                        src="../assets/delete_red_icon.svg"></span></button>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            <form action="../Payment/Pending Payment.html" method="POST" id="deletePropertyPayment">
-                                <input type="hidden" name="_token" value="bGe7X8BwJH8JTchDqkdpQlnfUUzv4KwxeMcoycZY">
-                                <input type="hidden" name="_method" value="DELETE">
-                                <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog"
-                                    aria-labelledby="deleteModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="deleteModalLabel">Delete Pending Payment
-                                                </h5>
-                                                <button type="button" class="close" data-dismiss="modal"
-                                                    aria-label="Close">
-                                                    <span aria-hidden="true">×</span>
-                                                </button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <p class="text-bold">
-                                                    Are you sure you want to delete the pending payment record?
-                                                </p>
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary"
-                                                    data-dismiss="modal">No</button>
-                                                <button type="submit" class="btn btn-danger">Yes</button>
-                                            </div>
-                                        </div>
-                                    </div>
+                            <div>
+                                Please upload the copy of your payment slip
+                            </div>
+
+                            <div class="popup_file_upload">
+                                <button type="submit" class="upload_payslip">
+                                    <div class="upload_slip_text">Choose file</div>
+                                </button>
+                                <div class="file_choose_text">
+                                    No file choosen
                                 </div>
-                            </form>
+                            </div>
+
+                            <!-- <div>
+                                <input type="file" class="form-control" name="fileattached" id="fileattached"
+                                    for=fileattached>
+                            </div> -->
+
+                            <button type="submit" class="submit-pay">
+                                <div class="submit_button_wrap">
+                                    <div class="pay_button_text">Upload</div>
+                                    <img class="upload_icon" src="../assets/file_upload_white_icon.svg">
+                                </div>
+                            </button>
                         </div>
                     </div>
+                    <a class="close-icon-wrapper" href="../Payment/Pending Payment Detailed.html">
+                        <img class="" src="../assets/close_icon.svg">
+                    </a>
                 </div>
             </main>
         </div>
