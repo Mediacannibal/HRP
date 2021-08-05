@@ -161,12 +161,12 @@
     padding-top: 1vh;
 }
 
-.pay_button_text {
+.pay-button-text {
     color: #ffffff;
     margin-left: 2vh;
 }
 
-.upload_slip_text {
+.upload-slip-text {
     color: #a06af6;
 }
 
@@ -258,7 +258,7 @@
 
 /* popup CSS */
 
-.popup_wrapper {
+.popup-wrapper {
     position: relative;
     height: 100%;
     width: 100%;
@@ -273,7 +273,7 @@
     vertical-align: top;
 }
 
-.popup_bg {
+.popup-bg {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -289,7 +289,7 @@
     animation: fade-in 0.4s ease forwards;
 }
 
-.popup_container {
+.popup-container {
     position: relative;
     align-self: center;
     display: grid;
@@ -297,7 +297,7 @@
     animation: pop-in 0.4s ease forwards;
 }
 
-.popup_file_upload {
+.popup-file-upload {
     display: flex;
     background-color: #e3f0ff;
     height: 5vh;
@@ -319,7 +319,7 @@
     display: flex;
 }
 
-.upload_payslip {
+.upload-payslip {
     background: #ffffff;
     border-color: #a06af6;
     width: 8vw;
@@ -327,7 +327,7 @@
     border-radius: 3vh;
 }
 
-.file_choose_text {
+.file-choose-text {
     font-size: 13px;
     font-weight: 300;
     margin: 1vh;
