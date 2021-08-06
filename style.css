@@ -329,10 +329,18 @@
 }
 
 .sidebar-dark.nav-left-sidebar .navbar-nav .nav-link:focus, .sidebar-dark.nav-left-sidebar .navbar-nav .nav-link.active {
+    display: flex;
     background-color: #b4e7f0;
     color: #0a78c4;
     border-radius: 2px;
     font-weight: 600;
+}
+
+.nav-left-sidebar .submenu .nav .nav-item .nav-link {
+    font-size: 14px;
+    padding: 6px 12px;
+    transition: 0.3s;
+    display: flex;
 }
 
 .nav-user-info {
@@ -372,6 +380,8 @@
     height: 100vh;
 }
 
+/* TABLE */
+
 .table-bordered th, .table-bordered td {
     border: 1px solid #dee2e6;
     border-left-style: none;
@@ -381,3 +391,26 @@
 tbody {
     background-color: #ffffff;
 }
+
+.table thead th, .table th {
+    color: #ffffff !important;
+    font-weight: 500;
+    vertical-align: middle !important;
+    padding: 0 15px;
+}
+
+.table-sm th, .table-sm td {
+    padding: 3px 1rem;
+    font-weight: 500;
+}
+
+.table-bordered {
+    border: none;
+}
+
+.bg-info {
+    background-color: #6cb2eb !important;
+    height: 45px;
+}
+
+/* /////// */
