@@ -136,7 +136,9 @@
 }
 
 .color-next {
-    background-color: #f5feff !important;
+    background-color: #F6FBFF !important;
+    border-radius: 6px;
+    box-shadow: 0px 4px 4px rgba(180, 210, 235, 0.8);
 }
 
 .x_img {
@@ -152,7 +154,8 @@
     display: flex;
     background-color: #93E4D1;
     justify-content: space-between;
-    width: 300px;
+    width: 17vw;
+    max-width: 300px;
     padding: 8px 15px 0px;
     margin-left: auto;
 }
@@ -166,10 +169,6 @@
 }
 
 .submit_button_wrap {
-    display: flex;
-}
-
-.receipt_total_rm {
     display: flex;
 }
 
@@ -393,7 +392,7 @@
 }
 
 .bg-primary {
-    background-color: #5969ff !important;
+    background-color: #0073F0 !important;
 }
 
 .back-house-image {
@@ -401,7 +400,6 @@
     position: absolute;
     width: 100%;
     object-fit: none;
-    opacity: 0.1;
     height: 100vh;
 }
 
