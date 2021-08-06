@@ -100,7 +100,6 @@
     margin-top: 10vh;
 }
 
-
 /* Page Button */
 
 .page-button-Text {
@@ -123,7 +122,6 @@
     height: 5vh;
     min-width: 90px;
 }
-
 
 /* //// */
 
@@ -152,7 +150,7 @@
     display: flex;
     background-color: #93E4D1;
     justify-content: space-between;
-    width: 300px;
+    width: 200px;
     padding: 8px 15px 0px;
     margin-left: auto;
 }
@@ -166,10 +164,6 @@
 }
 
 .submit_button_wrap {
-    display: flex;
-}
-
-.receipt_total_rm {
     display: flex;
 }
 
@@ -227,7 +221,6 @@
     border-radius: 3vh;
     margin-top: 5vh;
 }
-
 
 /* popup CSS */
 
@@ -329,39 +322,13 @@
     margin-left: 2vh;
 }
 
-
-/* .sidebar-dark.nav-left-sidebar .navbar-nav .nav-link:focus, .sidebar-dark.nav-left-sidebar .navbar-nav .nav-link:active {
-    color: #0a78c4;
-    background-color: #b4e7f0;
-    border-radius: 2px;
-}
-
-.sidebar-dark.nav-left-sidebar .navbar-nav .nav-link:focus, .sidebar-dark.nav-left-sidebar .navbar-nav .nav-link:hover {
-    color: #0a78c4;
-    background-color: #b4e7f0;
-    border-radius: 2px;
-}
-
-.navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
-    color: #0a78c4;
-    background-color: #b4e7f0;
-}
-
-.sidebar-dark.nav-left-sidebar .navbar-nav .nav-link:focus, .sidebar-dark.nav-left-sidebar .navbar-nav .nav-link.active {
-    background-color: #ffffff !important;
-    color: #a8d8dd;
-    border-radius: 2px;
-    font-weight: 600;
-} */
-
 .sidebar-dark.nav-left-sidebar .navbar-nav .nav-link {
     color: #a8d8dd;
     font-weight: 600;
     font-size: 12px;
 }
 
-.sidebar-dark.nav-left-sidebar .navbar-nav .nav-link:focus,
-.sidebar-dark.nav-left-sidebar .navbar-nav .nav-link.active {
+.sidebar-dark.nav-left-sidebar .navbar-nav .nav-link:focus, .sidebar-dark.nav-left-sidebar .navbar-nav .nav-link.active {
     background-color: #b4e7f0;
     color: #0a78c4;
     border-radius: 2px;
@@ -405,8 +372,7 @@
     height: 100vh;
 }
 
-.table-bordered th,
-.table-bordered td {
+.table-bordered th, .table-bordered td {
     border: 1px solid #dee2e6;
     border-left-style: none;
     border-right-style: none;
