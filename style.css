@@ -100,7 +100,6 @@
     margin-top: 10vh;
 }
 
-
 /* Page Button */
 
 .page-button-Text {
@@ -123,7 +122,6 @@
     height: 5vh;
     min-width: 90px;
 }
-
 
 /* //// */
 
@@ -194,15 +192,15 @@
 }
 
 .nav-left-sidebar .submenu {
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 0;
+    padding-right: 0;
     background: #f1f9fb;
 }
 
 .sidebar-dark.nav-left-sidebar .submenu .nav .nav-item .nav-link:hover {
-    color: #0a78c4;
+    color: #0055B7;
     border-radius: 2px;
-    background-color: #a9d1d8;
+    background-color: #E4F0FE;
 }
 
 .card_title {
@@ -226,7 +224,6 @@
     border-radius: 3vh;
     margin-top: 5vh;
 }
-
 
 /* popup CSS */
 
@@ -329,23 +326,22 @@
 }
 
 .sidebar-dark.nav-left-sidebar .navbar-nav .nav-link {
-    color: #a8d8dd;
+    color: #2570C675;
     font-weight: 600;
     font-size: 12px;
 }
 
-.sidebar-dark.nav-left-sidebar .navbar-nav .nav-link:focus,
-.sidebar-dark.nav-left-sidebar .navbar-nav .nav-link.active {
+.sidebar-dark.nav-left-sidebar .navbar-nav .nav-link:focus, .sidebar-dark.nav-left-sidebar .navbar-nav .nav-link.active {
     display: flex;
-    background-color: #b4e7f0;
-    color: #0a78c4;
+    background-color: #E4F0FE;
+    color: #0055B7;
     border-radius: 2px;
     font-weight: 600;
 }
 
 .nav-left-sidebar .submenu .nav .nav-item .nav-link {
     font-size: 14px;
-    padding: 6px 12px;
+    padding: 6px 8px;
     transition: 0.3s;
     display: flex;
 }
@@ -386,11 +382,9 @@
     height: 100vh;
 }
 
-
 /* TABLE */
 
-.table-bordered th,
-.table-bordered td {
+.table-bordered th, .table-bordered td {
     border: 1px solid #dee2e6;
     border-left-style: none;
     border-right-style: none;
@@ -400,16 +394,14 @@ tbody {
     background-color: #ffffff;
 }
 
-.table thead th,
-.table th {
+.table thead th, .table th {
     color: #ffffff !important;
     font-weight: 500;
     vertical-align: middle !important;
     padding: 0 15px;
 }
 
-.table-sm th,
-.table-sm td {
+.table-sm th, .table-sm td {
     padding: 3px 1rem;
     font-weight: 500;
 }
@@ -422,6 +414,5 @@ tbody {
     background-color: #6cb2eb !important;
     height: 45px;
 }
-
 
 /* /////// */
