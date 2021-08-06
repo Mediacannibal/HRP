@@ -100,6 +100,7 @@
     margin-top: 10vh;
 }
 
+
 /* Page Button */
 
 .page-button-Text {
@@ -122,6 +123,7 @@
     height: 5vh;
     min-width: 90px;
 }
+
 
 /* //// */
 
@@ -150,8 +152,8 @@
     display: flex;
     background-color: #93E4D1;
     justify-content: space-between;
-    width: 214px;
-    padding: 5px 8px 0px;
+    width: 300px;
+    padding: 8px 15px 0px;
     margin-left: auto;
 }
 
@@ -225,6 +227,7 @@
     border-radius: 3vh;
     margin-top: 5vh;
 }
+
 
 /* popup CSS */
 
@@ -326,6 +329,7 @@
     margin-left: 2vh;
 }
 
+
 /* .sidebar-dark.nav-left-sidebar .navbar-nav .nav-link:focus, .sidebar-dark.nav-left-sidebar .navbar-nav .nav-link:active {
     color: #0a78c4;
     background-color: #b4e7f0;
@@ -356,7 +360,8 @@
     font-size: 12px;
 }
 
-.sidebar-dark.nav-left-sidebar .navbar-nav .nav-link:focus, .sidebar-dark.nav-left-sidebar .navbar-nav .nav-link.active {
+.sidebar-dark.nav-left-sidebar .navbar-nav .nav-link:focus,
+.sidebar-dark.nav-left-sidebar .navbar-nav .nav-link.active {
     background-color: #b4e7f0;
     color: #0a78c4;
     border-radius: 2px;
@@ -400,12 +405,13 @@
     height: 100vh;
 }
 
-.table-bordered th, .table-bordered td {
+.table-bordered th,
+.table-bordered td {
     border: 1px solid #dee2e6;
     border-left-style: none;
     border-right-style: none;
 }
 
-.outbill-table{
+.outbill-table {
     background-color: #ffffff;
 }
