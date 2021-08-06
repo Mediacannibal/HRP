@@ -148,10 +148,11 @@
 
 .total_rm {
     display: flex;
-    background-color: #27dab1;
-    justify-content: space-evenly;
-    width: 25vw;
-    padding-top: 1vh;
+    background-color: #93E4D1;
+    justify-content: space-between;
+    width: 214px;
+    padding: 5px 8px 0px;
+    margin-left: auto;
 }
 
 .upload-slip-text {
@@ -395,6 +396,12 @@
     position: absolute;
     width: 100%;
     object-fit: none;
-    opacity: 0.3;
+    opacity: 0.1;
     height: 100vh;
+}
+
+.table-bordered th, .table-bordered td {
+    border: 1px solid #dee2e6;
+    border-left-style: none;
+    border-right-style: none;
 }
