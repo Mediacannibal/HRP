@@ -313,11 +313,11 @@
                                     <span class="status"></span><span class="ml-2">OWNER</span>
                                 </div>
                                 <a class="dropdown-item" href="https://uatpba01.unityapps.net/changepassword">
-                                    <i class="fas fa-key mr-2"></i>Change Password
+                                    <img class="menu_icons" src="../assets/visibility_eye_icon.svg">Change Password
                                 </a>
                                 <a class="dropdown-item" href="https://uatpba01.unityapps.net/logout" onclick="event.preventDefault();
                                                         document.getElementById(&#39;logout-form&#39;).submit();">
-                                    <i class="fas fa-power-off mr-2"></i>Logout
+                                    <img class="menu_icons" src="../assets/logout.svg">Logout
                                 </a>
                                 <form id="logout-form" action="https://uatpba01.unityapps.net/logout" method="POST"
                                     style="display: none;">
@@ -347,13 +347,13 @@
                                 </select>
                             </div>
                             <li class="nav-item">
-                                <a class="nav-link active" href="../Dashboard/Dashboard.html">
+                                <a class="nav-link" href="../Dashboard/Dashboard.html">
                                     <img class="menu_icons" src="../assets/dashboard_icon.svg">Dashboard<span
                                         class="badge badge-success">6</span></a>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../Dashboard/Dashboard.html" data-toggle="collapse"
+                                <a class="nav-link " href="../Dashboard/Dashboard.html" data-toggle="collapse"
                                     aria-expanded="true" data-target="#propertypayment" aria-controls="propertypayment">
                                     <img class="menu_icons" src="../assets/credit_card_icon.svg">Payment<span
                                         class="badge badge-success">6</span></a>
@@ -377,14 +377,14 @@
                                     </ul>
                                 </div>
                             </li>
-                            <li class="nav-item active">
-                                <a class="nav-link " href="../Receipt/Receipt.html">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="../Receipt/Receipt.html">
                                     <img class="menu_icons" src="../assets/receipt_long_icon.svg">Receipt<span
                                         class="badge badge-success">6</span></a>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="https://uatpba01.unityapps.net/logout"
+                                <a class="nav-link " href="https://uatpba01.unityapps.net/logout"
                                     onclick="event.preventDefault();
                                                                 document.getElementById(&#39;logout-form2&#39;).submit();">
                                     <img class="menu_icons" src="../assets/logout.svg">Logout<span
@@ -402,6 +402,7 @@
         </div>
 
         <div class="dashboard-wrapper">
+            <img class="back-house-image" style="" src="../assets/house_back_img.svg">
             <main>
                 <div class="container-fluid">
                     <div class="row head_wrap" style="">

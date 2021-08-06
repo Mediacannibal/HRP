@@ -577,11 +577,11 @@
                                     <span class="status"></span><span class="ml-2">OWNER</span>
                                 </div>
                                 <a class="dropdown-item" href="https://uatpba01.unityapps.net/changepassword">
-                                    <i class="fas fa-key mr-2"></i>Change Password
+                                    <img class="menu_icons" src="../assets/visibility_eye_icon.svg">Change Password
                                 </a>
                                 <a class="dropdown-item" href="https://uatpba01.unityapps.net/logout" onclick="event.preventDefault();
                                                         document.getElementById(&#39;logout-form&#39;).submit();">
-                                    <i class="fas fa-power-off mr-2"></i>Logout
+                                    <img class="menu_icons" src="../assets/logout.svg">Logout
                                 </a>
                                 <form id="logout-form" action="https://uatpba01.unityapps.net/logout" method="POST"
                                     style="display: none;">
@@ -617,7 +617,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../Dashboard/Dashboard.html" data-toggle="collapse"
+                                <a class="nav-link " href="../Dashboard/Dashboard.html" data-toggle="collapse"
                                     aria-expanded="true" data-target="#propertypayment" aria-controls="propertypayment">
                                     <img class="menu_icons" src="../assets/credit_card_icon.svg">Payment<span
                                         class="badge badge-success">6</span></a>
@@ -625,7 +625,7 @@
                                 <div id="propertypayment" class="submenu collapse" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link " href="../Payment/Outstanding Bill.html">
+                                            <a class="nav-link" href="../Payment/Outstanding Bill.html">
                                                 <img class="menu_icons" src="../assets/bill_icon.svg">Outstanding Bill
                                                 <span class="badge badge-success">6</span></a>
                                             </a>
@@ -640,8 +640,8 @@
                                     </ul>
                                 </div>
                             </li>
-                            <li class="nav-item active">
-                                <a class="nav-link " href="../Receipt/Receipt.html">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../Receipt/Receipt.html">
                                     <img class="menu_icons" src="../assets/receipt_long_icon.svg">Receipt<span
                                         class="badge badge-success">6</span></a>
                                 </a>
@@ -665,6 +665,7 @@
         </div>
 
         <div class="dashboard-wrapper">
+            <img class="back-house-image" style="" src="../assets/house_back_img.svg">
             <main class="py-4">
                 <div class="container-fluid">
                     <div class="row_and_column" style=" display: flex; flex-direction: row; ">
