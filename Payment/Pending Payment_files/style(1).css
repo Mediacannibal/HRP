@@ -1626,7 +1626,7 @@ Left Navigation Sidebar
 
 .nav-left-sidebar {
     position: fixed;
-    width: 170px;
+    width: 190px;
     height: 100%;
     top: 60px;
     overflow: auto;
@@ -1936,9 +1936,8 @@ Container / Wrapper
 
 .dashboard-wrapper {
     position: relative;
-    left: 0;
-    margin-left: 170px;
-    min-height: 870px !important;
+    height: calc(100vh - 60px);
+    margin-left: 190px;
     background: #EDF6FD;
 }
 

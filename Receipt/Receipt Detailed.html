@@ -265,14 +265,14 @@
                 <div class="navbar-brand text-white">Sample House Resident Portal </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon">
-                        <img class="userIcon_img" src="../assets/user_icon.svg" style="">
+                        <img class="userIcon_img" src="../assets/user_icon.svg">
                     </span>
                 </button>
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto navbar-right-top">
                         <li class="nav-item dropdown nav-user">
                             <a class="nav-link nav-user-img" href="../Payment/Outstanding Bill.html" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span style="color: white;">
-                                    <img class="userIcon_img" src="../assets/user_icon.svg" style=""></span>
+                                    <img class="userIcon_img" src="../assets/user_icon.svg"></span>
                             </a>
                             <div class="dropdown-menu dropdown-menu-right nav-user-dropdown" aria-labelledby="navbarDropdownMenuLink2">
                                 <div class="nav-user-info">
@@ -304,7 +304,7 @@
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="navbar-collapse collapse show" id="navbarNav" style="">
+                    <div class="navbar-collapse collapse show" id="navbarNav">
                         <ul class="navbar-nav flex-column">
                             <div class="form-group mb-0">
                                 <select class="form-control" name="cbProperty" onchange="refreshProperty(this)">
@@ -321,7 +321,7 @@
                                 <a class="nav-link " href="../Dashboard/Dashboard.html" data-toggle="collapse" aria-expanded="true" data-target="#propertypayment" aria-controls="propertypayment">
                                     <img class="menu_icons" src="../assets/credit_card_icon.svg">Payment<span class="badge badge-success">6</span></a>
                                 </a>
-                                <div id="propertypayment" class="submenu collapse" style="">
+                                <div id="propertypayment" class="submenu collapse">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
                                             <a class="nav-link " href="../Payment/Outstanding Bill.html">
@@ -360,11 +360,11 @@
         </div>
 
         <div class="dashboard-wrapper">
-            <img class="back-house-image" style="" src="../assets/house_back_img.svg">
-            <main>
+            <img class="back-house-image" src="../assets/house_back_img.svg">
+            <main class="py-4">
                 <div class="container-fluid">
-                    <div class="row head_wrap" style="">
-                        <div class="uni_heading" style="">
+                    <div class="row head_wrap">
+                        <div class="uni_heading">
                             <a class="btn-back" href="../Receipt/Receipt.html">
                                 <div class="icon-wrapper">
                                     <img class="row_icons" src="../assets/arrow_back_icon.svg">
@@ -414,14 +414,14 @@
                     </div>
                 </div>
             </main>
-            <div class="download_print" style="/* color: #ffffff; */">
-                <button class="page-Button download-margin" href="https://uatpba01.unityapps.net/property/print/receipt?suuid=93c001d6-59f1-4c20-a056-93d757049cb9&amp;download=Y" formtarget="_blank" target="_blank">
-                    <div class="page-button-Text print-text-margin">Print</div>
-                    <img class="page-button-Icon" src="../assets/print_white_icon.svg" />
+            <div class="download_print">
+                <button class="page-Button after_card_buttons" href="https://uatpba01.unityapps.net/property/print/receipt?suuid=93c001d6-59f1-4c20-a056-93d757049cb9&amp;download=N" formtarget="_blank" target="_blank">
+                    <div class="page-button-text">Download</div>
+                    <img class="page-button-icon" src="../assets/file_download_white.svg" />
                 </button>
-                <button class="page-Button" href="https://uatpba01.unityapps.net/property/print/receipt?suuid=93c001d6-59f1-4c20-a056-93d757049cb9&amp;download=N" formtarget="_blank" target="_blank">
-                    <div class="page-button-Text">Download</div>
-                    <img class="page-button-Icon" src="../assets/file_download_white.svg" />
+                <button class="page-Button after_card_buttons" href="https://uatpba01.unityapps.net/property/print/receipt?suuid=93c001d6-59f1-4c20-a056-93d757049cb9&amp;download=Y" formtarget="_blank" target="_blank">
+                    <div class="page-button-text">Print</div>
+                    <img class="page-button-icon" src="../assets/print_white_icon.svg" />
                 </button>
             </div>
         </div>

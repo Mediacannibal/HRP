@@ -248,14 +248,14 @@
                 <div class="navbar-brand text-white">Sample House Resident Portal </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon">
-                        <img class="userIcon_img" src="../assets/user_icon.svg" style="">
+                        <img class="userIcon_img" src="../assets/user_icon.svg">
                     </span>
                 </button>
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto navbar-right-top">
                         <li class="nav-item dropdown nav-user">
                             <a class="nav-link nav-user-img" href="../Payment/Outstanding Bill.html" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span style="color: white;">
-                                    <img class="userIcon_img" src="../assets/user_icon.svg" style=""></span>
+                                    <img class="userIcon_img" src="../assets/user_icon.svg"></span>
                             </a>
                             <div class="dropdown-menu dropdown-menu-right nav-user-dropdown" aria-labelledby="navbarDropdownMenuLink2">
                                 <div class="nav-user-info">
@@ -287,7 +287,7 @@
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="navbar-collapse collapse show" id="navbarNav" style="">
+                    <div class="navbar-collapse collapse show" id="navbarNav">
                         <ul class="navbar-nav flex-column">
                             <div class="form-group mb-0">
                                 <select class="form-control" name="cbProperty" onchange="refreshProperty(this)">
@@ -301,10 +301,10 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../Dashboard/Dashboard.html" data-toggle="collapse" aria-expanded="true" data-target="#propertypayment" aria-controls="propertypayment">
+                                <a class="nav-link active" href="../Dashboard/Dashboard.html" data-toggle="collapse" aria-expanded="true" data-target="#propertypayment" aria-controls="propertypayment">
                                     <img class="menu_icons" src="../assets/credit_card_icon.svg">Payment<span class="badge badge-success">6</span></a>
                                 </a>
-                                <div id="propertypayment" class="submenu open" style="">
+                                <div id="propertypayment" class="submenu open">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
                                             <a class="nav-link active" href="../Payment/Outstanding Bill.html" style="display: flex;">
@@ -342,13 +342,11 @@
         </div>
 
         <div class="dashboard-wrapper">
-            <img class="back-house-image" style="" src="../assets/house_back_img.svg">
+            <img class="back-house-image" src="../assets/house_back_img.svg">
             <main class="py-4">
                 <div class="container-fluid">
-                    <div class="row mb-2">
-                        <div class="col-xl-12">
-                            <div class="uni_heading">Outstanding Bill</div>
-                        </div>
+                    <div class="row head_wrap">
+                        <div class="uni_heading">Outstanding Bill</div>
                     </div>
                     <div class="card color-next">
                         <div class="card-body">
@@ -357,20 +355,21 @@
                                 <table class="table table-sm table-striped table-bordered table-hover">
                                     <thead class="bg-info">
                                         <tr>
-                                            <th scope="col">Transaction Type</th>
-                                            <th scope="col">Running Number</th>
-                                            <th scope="col">Notes</th>
-                                            <th scope="col">Date</th>
-                                            <th scope="col">Due On</th>
-                                            <th scope="col">Days Due</th>
-                                            <th scope="col">Status</th>
-                                            <th scope="col">Total (RM)</th>
                                             <th scope="col"><input type="checkbox" class="check_all" id="check_all"> All
+                                                <th scope="col">Transaction Type</th>
+                                                <th scope="col">Running Number</th>
+                                                <th scope="col">Notes</th>
+                                                <th scope="col">Date</th>
+                                                <th scope="col">Due On</th>
+                                                <th scope="col">Days Due</th>
+                                                <th scope="col">Status</th>
+                                                <th scope="col">Total (RM)</th>
                                             </th>
                                         </tr>
                                     </thead>
                                     <tbody class="outbill-table">
                                         <tr>
+                                            <td></td>
                                             <td>Sales Invoice</td>
                                             <td>MAR2018014</td>
                                             <td>SERVICE CHARGE (01/03/2018 - 31/05/2018)</td>
@@ -381,9 +380,9 @@
                                                     Payment <img class="row_icons"
                                                         src="../assets/error_outline_red_icon.svg"></a></td>
                                             <td class="text-right">2,288.35</td>
-                                            <td></td>
                                         </tr>
                                         <tr>
+                                            <td></td>
                                             <td>Receipt</td>
                                             <td>OR0000007</td>
                                             <td></td>
@@ -392,9 +391,9 @@
                                             <td class="text-right"></td>
                                             <td></td>
                                             <td class="text-right">-100.00</td>
-                                            <td></td>
                                         </tr>
                                         <tr>
+                                            <td></td>
                                             <td>Sales Invoice</td>
                                             <td>JUN2018001</td>
                                             <td>SERVICE CHARGE (11/06/2018 - 10/09/2018)</td>
@@ -405,9 +404,9 @@
                                                     Payment <img class="row_icons"
                                                         src="../assets/error_outline_red_icon.svg"></i></a></td>
                                             <td class="text-right">2,288.35</td>
-                                            <td></td>
                                         </tr>
                                         <tr>
+                                            <td></td>
                                             <td>Sales Invoice</td>
                                             <td>JAN2019001</td>
                                             <td>SERVICE CHARGE (01/01/2019 - 31/01/2019)</td>
@@ -418,16 +417,15 @@
                                                     Payment <img class="row_icons"
                                                         src="../assets/error_outline_red_icon.svg"></a></td>
                                             <td class="text-right">329.15</td>
-                                            <td></td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </form>
                         </div>
                     </div>
-                    <button type="submit" class="page-Button" style=" display: flex; ">
+                    <button type="submit" class="page-Button">
                         <div class="page-button-text">Check out</div>
-                        <img class="page-button-Icon" src="../assets/tick_icon.svg">
+                        <img class="page-button-icon" src="../assets/tick_icon.svg">
                     </button>
                 </div>
             </main>

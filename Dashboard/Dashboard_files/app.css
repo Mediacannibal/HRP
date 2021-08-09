@@ -6806,7 +6806,7 @@ button.bg-dark:focus {
 }
 
 .bg-shadeBlue {
-    background: rgb(114, 106, 246);
+    position: relative;
     background: linear-gradient(180deg, rgba(114, 106, 246, 1) 0%, rgba(47, 166, 223, 1) 51%, rgba(44, 207, 227, 1) 100%);
 }
 
@@ -6815,7 +6815,7 @@ button.bg-dark:focus {
 }
 
 .bg-shadePurpulblue {
-    background: rgb(114, 106, 246);
+    position: relative;
     background: linear-gradient(180deg, rgba(114, 106, 246, 1) 0%, rgba(165, 41, 236, 1) 29%, rgba(219, 165, 223, 1) 100%);
 }
 
